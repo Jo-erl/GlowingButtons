@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Social Media by JoErl</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no shrink-to-fit=no"
+    />
+    <meta name="description" content="Social Media by JoErl" />
+    <meta name="keywords" content="html, css, glowing, social media, buttons" />
+    <meta name="author" content="Joel Anang" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <i class="fab fa-instagram" id="instagram"></i>
+      <i class="fab fa-linkedin-in" id="facebook"></i>
+      <i class="fab fa-twitter" id="twitter"></i>
+      <i class="fab fa-github-square github" id="github"></i>
+      <i class="fab fa-facebook-square" id="facebook"></i>
+    </div>
+
+    <footer>
+      <p>
+        All Rights Reserved. &copy; <span id="currentYear"></span>.
+        <a
+          href="https://jo-erl.github.io/joelanangportfolio/"
+          style="color: rgb(0, 255, 68)"
+          target="_blank"
+          >JoErl</a
+        >
+      </p>
+    </footer>
+
+    <script>
+      // JavaScript to automatically update the year
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
