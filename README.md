@@ -1,6 +1,6 @@
 <h1>Glowing Buttons</h1>
 
-Glowing Buttons is a lightweight and customizable library that allows you to easily add five glowing social media buttons with a glossy look to your web projects. These buttons are perfect for adding a touch of interactivity and engagement to your website or application.
+Glowing Buttons is a lightweight, customizable and allows you to easily add five or moew glowing social media buttons with a glossy look to your web projects. These buttons are perfect for adding a touch of interactivity and engagement to your website or application.
 
 <h1>Features</h1>
 Five social media buttons: LinkedIn, Instagram, Twitter, GitHub, and Facebook.<br><br>
